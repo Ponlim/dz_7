@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(215, 162, 29);
+    font-family: cursive;
+}
+
+.container {
+    background-color: rgb(29, 15, 62);
+    width: 400px;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-align: center;
+}
+
+.input-container {
+    margin: 20px 0;
+}
+
+.input-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: solid 2px darkgray;
+    border-radius: 5px;
+    outline: none;
+}
+
+.result-container {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+#bmi-value {
+    font-weight: bold;
+    color: #3c10db;
+}
+
+#bmi-description {
+    font-size: 18px;
+    margin-top: 10px;
+}
